@@ -1,0 +1,81 @@
+body {
+  background: url(https://static.vecteezy.com/system/resources/previews/002/082/622/original/poker-background-with-playing-cards-and-chips-on-green-casino-background-modern-poker-widescreen-wallpaper-vector.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: white;
+  font-weight: bold;
+  min-width: 90%;
+}
+h1 {
+  color: goldenrod;
+}
+#message-el {
+  font-size: 2rem;
+}
+button {
+  width: 404px;
+  height: 40px;
+  background: goldenrod;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+#btn2 {
+  visibility: hidden;
+  width: 200px;
+}
+#sum-el,
+#cards-el,
+#dsum-el,
+#dcards-el {
+  visibility: hidden;
+}
+#btn3 {
+  visibility: hidden;
+  width: 200px;
+}
+select {
+  height: 40px;
+  background: goldenrod;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 7px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+#betpicker {
+  width: 100px;
+}
+#error-message {
+  color: red;
+  font-size: 1.5rem;
+  visibility: hidden;
+}
+img {
+  width: 100px;
+  height: 150px;
+}
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: none;
+  margin-bottom: 25px;
+}
